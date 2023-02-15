@@ -1,6 +1,12 @@
+function printDivider(text)
+{
+    console.log(`%c------ ${text} ------`, 'color: yellow; font-size: 1.5rem;')
+}
+
 ////////////////////////////////
 // * Easy Going
 ////////////////////////////////
+printDivider('Easy Going')
 for (let i = 1; i <= 20; ++i)
     console.log(i)
 
