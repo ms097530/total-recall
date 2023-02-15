@@ -1,4 +1,4 @@
-// Section 1
+// ---- Section 1 ----
 class Hamster
 {
     constructor(name)
@@ -68,3 +68,31 @@ class Person
         this.bankAccount -= hamster.getPrice()
     }
 }
+
+// Create story with Person
+let timmy = new Person('Timmy')
+
+for (let i = 1; i <= 5; ++i)
+{
+    timmy.ageUp()
+    timmy.eat()
+    timmy.exercise()
+}
+
+for (let i = 1; i <= 9; ++i)
+    timmy.ageUp()
+
+let gus = new Hamster('Gus')
+gus.owner = timmy.getName()
+timmy.buyHamster(gus)
+
+for (let i = 1; i <= 15; ++i)
+    timmy.ageUp()
+
+for (let i = 1; i <= 2; ++i)
+{
+    timmy.eat()
+    timmy.exercise()
+}
+console.log(timmy)
+
