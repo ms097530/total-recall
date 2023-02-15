@@ -96,3 +96,34 @@ for (let i = 1; i <= 2; ++i)
 }
 console.log(timmy)
 
+// Chef Make Dinners
+class Dinner
+{
+    constructor(appetizer, entree, dessert)
+    {
+        this.appetizer = appetizer
+        this.entree = entree
+        this.dessert = dessert
+    }
+}
+
+class Chef
+{
+    constructor(name)
+    {
+        this.name = name
+        this.dinners = []
+    }
+
+    makeDinner(appetizer, entree, dessert)
+    {
+        let newDinner = new Dinner(appetizer, entree, dessert)
+        this.dinners.push(newDinner)
+        return newDinner
+    }
+}
+
+let chef = new Chef('Bob Dob')
+let din = chef.makeDinner('mozzarella sticks', 'cheeseburger', 'apple pie')
+console.log(chef)
+console.log(din)
