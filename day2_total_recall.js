@@ -150,3 +150,28 @@ for (let i = 1; i <= 20; ++i)
 ////////////////////////////////
 //  * Find the Median
 ////////////////////////////////
+printDivider('Find the Median')
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12]
+
+nums.sort()
+console.log(nums)
+
+let halfwayIndex = Math.floor(nums.length / 2)
+
+// array is odd length
+if (nums.length % 2 === 1)
+{
+    console.log('length is odd')
+    console.log(nums[halfwayIndex])
+}
+// array is even length
+else
+{
+    console.log('length is even')
+
+    let firstMedian = nums[halfwayIndex]
+    let secondMedian = nums[halfwayIndex + 1]
+    let average = (firstMedian + secondMedian) / 2
+
+    console.log(average)
+}
