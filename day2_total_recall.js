@@ -113,8 +113,20 @@ console.log('12. ' + 'The const keyword works because all it is doing is disallo
 ////////////////////////////////
 // * Where is Waldo
 ////////////////////////////////
+printDivider('Where is Waldo')
+const whereIsWaldo = [
+    ["Timmy", "Frank"],
+    "Eggbert",
+    ["Lucinda", "Jacc", "Neff", "Snoop"],
+    ["Petunia", ["Baked Goods", "Waldo"]]
+]
+whereIsWaldo.splice(1, 1)
+console.log('remove Eggbert: ', whereIsWaldo)
 
+whereIsWaldo[1][2] = 'No One'
+console.log('change Neff: ', whereIsWaldo)
 
+console.log('found Waldo: ', whereIsWaldo[2][1][1])
 ////////////////////////////////
 //  * Excited Kitten
 ////////////////////////////////
