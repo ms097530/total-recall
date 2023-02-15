@@ -60,7 +60,10 @@ console.log('4. ' + wolfy)
 ////////////////////////////////
 // * Yell at the Ninja Turtles
 ////////////////////////////////
-
+printDivider('Yell at the Ninja Turtles')
+let ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (let turtle of ninjaTurtles)
+    console.log(turtle.toUpperCase())
 
 ////////////////////////////////
 // * Methods, Revisited
