@@ -127,3 +127,25 @@ let chef = new Chef('Bob Dob')
 let din = chef.makeDinner('mozzarella sticks', 'cheeseburger', 'apple pie')
 console.log(chef)
 console.log(din)
+
+// ---- Variables & Datatypes ----
+
+// A. Q + A
+/*
+    1. First, use keyword (var, let, const), then provide variable name, then add assignment operator (=), and then provide the value to assign.
+    2. Type variable name, then assignment operator, then value.
+    3. Declare new variable, type assignment operator, type old variable name
+    4. "Declaring" a variable only reserves space in memory for the variable. No value is assigned. "Assigning" means associating a given value with a variable (location in memory). "Defining" means that a variable is initialized.
+    5. Pseudocoding is writing out the logic of what you want to do to solve a problem in English in a way that you can break down and translate into computer code
+    6. Most of your time should be spent thinking about how to solve the problem. Once you have a solution, it is only a matter of writing the actual code (theoretically).
+*/
+
+// B. Strings
+/* 
+
+*/
+
+
+
+
+
