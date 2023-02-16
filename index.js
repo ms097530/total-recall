@@ -291,8 +291,8 @@ function getTwoLengths(str1, str2)
 let strLengths = getTwoLengths('Hank', 'Hippopopalous')
 printAnswer(1, `length of Hank: ${strLengths[0]}  length of Hippopopalous: ${strLengths[1]}`)
 // F.
-printHeading('getMultipleLenghts', SH)
-function getMultipleLenghts(strArr)
+printHeading('getMultipleLengths', SH)
+function getMultipleLengths(strArr)
 {
     let lengthArr = []
 
@@ -302,7 +302,7 @@ function getMultipleLenghts(strArr)
     })
     return lengthArr
 }
-printAnswer(1, getMultipleLenghts(['hello', 'omae wa mou shindeiru', 'nani', 'baka na!', 'hippopotamus']))
+printAnswer(1, getMultipleLengths(['hello', 'omae wa mou shindeiru', 'nani', 'baka na!', 'hippopotamus']))
 // G.
 printHeading('maxOfThree', SH)
 function maxOfThree(num1, num2, num3)
